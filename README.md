@@ -38,11 +38,11 @@ Below is the BibTex for citing this snapshot of the respoitory.
 Stochastic choice-based discrete planning is a broad class of decision-making problems characterized by a sequential decision-making process involving a planner and a group of customers. The firm or planner first decides a subset of options to offer to the customers, who, in turn, make selections based on their utilities of those options. This problem has extensive applications in many areas, including assortment planning, product line design, and facility location. A key feature of these problems is that the firm cannot fully observe the customers’ utilities or preferences, which results from intrinsic and idiosyncratic uncertainties. Most works in the literature have studied a specific type of uncertainty, resulting in customized decision models that are subsequently tackled using ad-hoc algorithms designed to exploit the specific model structure.
 In this paper we propose a modeling framework capable of solving this family of sequential problems that works for a large variety of uncertainties. We then leverage an approximation scheme and develop an adaptable mixed-integer linear programming method. To speed up the solution process, we further develop an efficient decomposition approach. We show that our solution framework can yield solutions proven to be (near-)optimal for a broad class of problems. We illustrate this by applying our approach to three classical application problems: constrained assortment optimization and two facility location problems. Through extensive computational experiments, we demonstrate the performance of our approach in terms of both solution quality and computational speed, and provide computational insights. In particular, when we use our method to solve the constrained assortment optimization problem under the Exponomial choice model, it improves the state-of-the-art.
 
-This repository provides data for the problem and code for the proposed sampling-based Benders decomposition (**SBBD**) algorthm. The main folders are 'data', 'src', and 'results'.
+This repository provides data for the problem and code for the proposed sampling-based Benders decomposition (**SBBD**) algorthm and the benchmarking solution approaches. The main folders are 'data', 'src', and 'results'.
 
 - 'data': four datasets generator (and instances) used in the paper.
 
-- 'src': the source code for the decomposition algorithm.
+- 'src': the source code for the decomposition algorithm and the benchmarking solution approaches.
 
 - 'results': high-resoultion figures in our paper
 
